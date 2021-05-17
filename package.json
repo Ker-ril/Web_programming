@@ -1,0 +1,23 @@
+{
+  "name": "web_programming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ker-ril/Web_programming.git"
+  },
+  "author": "Viki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ker-ril/Web_programming/issues"
+  },
+  "homepage": "https://github.com/Ker-ril/Web_programming#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}
