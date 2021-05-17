@@ -1,0 +1,17 @@
+$margins: 5px;
+$text_color: #777777;
+
+/* Generated from index.scss */
+
+* {
+    margin: 0;
+}
+
+body {
+    margin: $margins;
+}
+
+h1 {
+    color: $text_color;
+    margin: $margins;
+}
