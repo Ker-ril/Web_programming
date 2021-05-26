@@ -1,0 +1,144 @@
+/* Налаштування тегу <body> */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+/* Звичайний блок */
+.block_n {
+  width: auto;
+  padding: 3px;
+  display: block;
+  margin: 2px 0 0 2px;
+  text-align: center;
+  border-style: solid;
+  border-color: #F00;
+  border-width: 2px;
+  box-sizing: inherit;
+  background-color: #F005;
+}
+
+/* Кінцевий блок */
+.block_e {
+  width: auto;
+  padding: 3px;
+  display: block;
+  margin: 2px 2px 0;
+  text-align: center;
+  border-style: solid;
+  border-color: #F00;
+  border-width: 2px;
+  box-sizing: inherit;
+  background-color: #F005;
+}
+
+input {
+  margin: 5px 0 0 5px;
+}
+
+button, input[type="button"] {
+  margin: 5px 2px;
+  padding: 2px 5px;
+}
+
+hr {
+  margin: 3px;
+  padding: 0;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+ul, ol {
+  text-align: left;
+}
+
+#grid_1 {
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+#div_1 {
+  border-color: #0F0;
+  background-color: #0F05;
+}
+
+#div_2, #div_6 {
+  color: white;
+  border-color: #333;
+  background-color: #3338;
+}
+
+#div_3 {
+  border-color: #00F;
+  background-color: #00F5;
+}
+
+#div_4 {
+  border-color: #F0F;
+  background-color: #F0F5;
+}
+
+#div_4 form {
+  text-align: left;
+}
+
+#div_5 {
+  border-color: #FF0;
+  background-color: #FF05;
+}
+
+#flex_block {
+  /* Тип відображення: flex */
+  display: flex;
+  /* Вирівнювання вздовж головної осі */
+  align-items: center;
+  /* Переносити елементи вниз, якщл вони не поміщаються у блоці */
+  flex-wrap: wrap;
+  /* Напрямок розміщення елементів (головна вісь) */
+  flex-direction: row;
+  /* Відступи між елементами */
+  justify-content: space-around;
+}
+
+#flex_block img {
+  display: block;
+  width: 48px;
+}
+
+#flex_block img[alt="im_2"],
+#flex_block img[alt="im_4"],
+#flex_block img[alt="im_6"],
+#flex_block img[alt="im_8"]{
+  display: block;
+  width: 72px;
+}
+
+#title {
+  color: black;
+  transition: border-color 2s,
+              background-color 2s;
+}
+
+#title_text {
+  display: inline;
+  cursor: pointer;
+}
+
+#div_6 {
+  margin-bottom: 2px;
+}
+
+#div_6 a, #div_6 a:visited {
+  color: white;
+  font-size: 1.3em;
+  text-decoration: none;
+}
